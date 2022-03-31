@@ -1,0 +1,77 @@
+.cardsFlex img {
+  width: 380px;
+  height: 380px;
+}
+.articleCards {
+  display: flex;
+  max-width: 100vw;
+  height: 428px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cursos {
+  padding-top: 81px;
+  padding-left: 82px;
+  padding-right: 85px;
+}
+.cursos h1 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 69px;
+  text-transform: capitalize;
+  color: #ff4081;
+}
+.cursos h1 + p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #555555;
+  margin-bottom: 95px;
+}
+.cardsFlex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.textContainer p {
+  width: 724px;
+  height: 105px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin-bottom: 53px;
+}
+.textContainer h2 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  color: #ff4081;
+  margin-bottom: 37px;
+}
+.textContainer {
+  margin-left: 53px;
+}
+.textContainer button {
+  width: 233px;
+  height: 51px;
+  color: white;
+  background: #419488;
+  border-radius: 62px;
+  border: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  cursor: pointer;
+}
+.card1,
+.card2 {
+  border-bottom: 5px solid #c4c4c4;
+}
+.card2 {
+  margin-top: 108px;
+}
+.card3 {
+  margin-top: 108px;
+  margin-bottom: 200px;
+}

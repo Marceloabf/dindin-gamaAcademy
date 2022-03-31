@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+body {
+  font-family: 'Ubuntu';
+  font-style: normal;
+}
+header {
+  background: #2e948a;
+  display: flex;
+  max-width: 100vw;
+  height: 117px;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 83px;
+  padding-right: 102px;
+}
+.logo {
+  display: flex;
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 64px;
+  color: #ffffff;
+}
+header p {
+  padding-top: 1.6rem;
+}
+header nav ul {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #fdfdfd;
+  display: flex;
+  gap: 42px;
+}
+footer {
+  background: #419488;
+  height: 207px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logoFooter {
+  display: flex;
+  align-items: center;
+}
+.logoFooter img {
+  width: 99px;
+  height: 100px;
+}
+#dindin {
+  font-weight: 500;
+  font-size: 66px;
+  line-height: 76px;
+  color: #ffffff;
+}
+#dindin + p {
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 22px;
+  color: #ffffff;
+}
+#ulFooter {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+}
+#buttonsFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+#buttonsFooter buttons {
+  width: 289px;
+  height: 51px;
+  background: none;
+  border: 2px solid #ffffff;
+  border-radius: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+}

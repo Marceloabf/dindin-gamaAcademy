@@ -1,0 +1,65 @@
+main fieldset {
+  border: none;
+}
+fieldset input {
+  width: 493px;
+  height: 32px;
+  border: 1px solid #686868;
+  border-radius: 7px;
+  padding-left: 22.13px;
+}
+fieldset textarea {
+  width: 493px;
+  height: 193px;
+  border: 1px solid #686868;
+  border-radius: 7px;
+  padding: 10px 0 0 21px;
+  resize: none;
+}
+textarea + button {
+  width: 108px;
+  height: 32px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: white;
+  background: #ff4081;
+  border-radius: 50px;
+  border: none;
+}
+main fieldset h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  color: #ff4081;
+  margin-bottom: calc(44px - 15px);
+}
+
+main {
+  display: flex;
+  max-width: 100vw;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+main img {
+  margin-top: 82px;
+  margin-bottom: 99px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+footer {
+  margin-top: auto;
+}
