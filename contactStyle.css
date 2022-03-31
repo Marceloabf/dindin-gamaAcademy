@@ -63,3 +63,21 @@ body {
 footer {
   margin-top: auto;
 }
+@media (max-width: 970px) {
+  main img {
+    display: none;
+  }
+  main {
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+  }
+}
+@media (max-width: 520px) {
+  fieldset input {
+    width: 200px;
+  }
+  fieldset textarea {
+    width: 200px;
+  }
+}
