@@ -161,6 +161,9 @@ aside h2 {
   text-transform: uppercase;
   margin-bottom: 73px;
 }
+#buttonContainer button a {
+  color: #ff4081;
+}
 aside button {
   width: 289px;
   height: 51px;
@@ -177,4 +180,108 @@ aside button {
   max-width: 100vw;
   display: flex;
   justify-content: center;
+}
+@media (min-width: 1470px) {
+  .aboutUsContainer {
+    max-width: 1450px;
+    justify-content: center;
+    gap: 97px;
+    row-gap: 46px;
+  }
+}
+@media (max-width: 1120px) {
+  .cards {
+    flex-wrap: wrap;
+    height: auto;
+    padding-top: 100px;
+  }
+  .cardReset {
+    width: 100vw;
+    margin-bottom: 100px;
+  }
+  .aboutUs {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutUs h2 {
+    margin: 0 0 76px 0;
+  }
+  .cardAboutUs {
+    width: 100vw;
+    justify-content: center;
+  }
+  .lastCard {
+    margin-bottom: 119px;
+  }
+  aside {
+    height: auto;
+    text-align: center;
+  }
+  aside button {
+    margin-top: 0;
+  }
+  #buttonContainer {
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+  aside h2 {
+    padding: 91px 0 73px 0;
+    margin-bottom: 0;
+  }
+  .container {
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .asideCards {
+    width: 100vw;
+    align-items: center;
+  }
+  .asideCards p {
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 1039px) {
+  .banner img {
+    width: 300px;
+    height: 300px;
+  }
+  .banner {
+    height: auto;
+    padding: 100px 0 100px 0;
+  }
+  .banner > article h1 {
+    font-size: 40px;
+    line-height: 42px;
+  }
+  .banner > article p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .banner > article button {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+@media (max-width: 712px) {
+  .banner {
+    flex-direction: column;
+  }
+  .banner article {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .aboutUs h2 {
+    text-align: center;
+  }
+
+  .comment p {
+    font-size: 15px;
+    width: 200px;
+    margin-bottom: 15px;
+  }
 }
