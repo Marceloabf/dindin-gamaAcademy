@@ -64,6 +64,9 @@
   line-height: 23px;
   cursor: pointer;
 }
+.textContainer button a {
+  color: white;
+}
 .card1,
 .card2 {
   border-bottom: 5px solid #c4c4c4;
